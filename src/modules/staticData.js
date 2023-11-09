@@ -53,9 +53,9 @@ export const STATIC_DATA = {
             deploy: 'https://yandex.ru/games/app/224987?draft=true&lang=ru',
             color: 'green',
         },{
-            title: 'Kinopoisk',
-            description: 'This is a SPA project with SSR. Project made on Vue.js, using Vuex state manager and SCSS preprocessor. Used API - kinopoisk.dev.',
-            github: '#',
+            title: 'This project',
+            description: 'This is a SPA project. Project made on Vue.js, using Vuex state manager and SCSS preprocessor. Validation implemented by Vuelidate.',
+            github: 'https://github.com/Benya-Krik/portfolio_console',
             deploy: '#',
             color: 'orange',
         },
