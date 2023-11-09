@@ -1,30 +1,30 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <svg-sprite />
+  <header-component />
+  <main class="container">
+    <router-view v-if="GET_LOADED_HEADER" />
+  </main>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import HeaderComponent from './components/HeaderComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
+import SvgSprite from './components/modules/SvgSprite.vue'
+import { mapGetters } from 'vuex';
 
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+export default {
+  components: {
+    HeaderComponent,
+    FooterComponent,
+    SvgSprite
+  },
+  computed: {
+    ...mapGetters(['GET_LOADED_HEADER'])
   }
 }
+</script>
+
+<style lang="scss">
+@import './assets/styles/utility/reset.scss';
+@import './assets/styles/common.scss';
 </style>
