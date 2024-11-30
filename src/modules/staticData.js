@@ -1,10 +1,11 @@
 export const STATIC_DATA = {
     aboutMe: {
-        intro: `Hello! My name is Ilya Ovechkin. I'm 25, and i am frontend developer. Welcome to my site. Here you can see my projects and contact with me.`,
-        experience: `I worked for about 3 years in the Yandex group of companies. My work at Yandex-team gave me a lot of experience in solving tasks, managing and self-organization. I also have some experience commercial development like a frontend developer as part of a small studio, now I'm studying JavaScript and his frameworks in more details.`,
-        goals: `I graduated from the Pedagogical University as a teacher of mathematics and informatics. In the process of training, I became interested in computer architecture. My dream is to become an operating system developer and write in assembly language.`,
+        intro: `Hello! My name is Ilya Ovechkin. I'm 25, and i am project manager. Welcome to my site. Here you can see my open-source projects like a frontend developer and contact with me.`,
+        experience: `I worked for about 4 years in the Yandex group of companies. My work at Yandex-team gave me a lot of experience in solving tasks, managing and self-organization. I also have some experience commercial development like a frontend developer as part of a small studio, now I'm studying managment, programming languages and IT in more details.`,
+        goals: `I graduated from the Pedagogical University as a teacher of mathematics and informatics. In the process of training, I became interested in computer architecture. My dream is to participate in OS development and and dive into assembly language.`,
         hobby: `At my free time, I'm tooking a development courses from open sources and reading professional literature. There I got most of the knowledge of programming languages.`,
-        conclusion: `At this time I'm free and ready for a new job.`
+        conclusion: `I'm currently working as a project manager at UnitBean. My key projects are automation of 3D printing production and software that checks the reliability of the firewall's.`
+
     },
     skills: [
         {
@@ -14,7 +15,7 @@ export const STATIC_DATA = {
                 'C#',
                 'SQL'
             ],
-            color: 'green'
+            color: 'green'     
         },
         {
             title: 'Frameworks',
@@ -24,15 +25,14 @@ export const STATIC_DATA = {
                 'Next.js',
                 'Unity',
             ],
-            color: 'blue'
+            color: 'blue',
         },
         {
             title: 'Tools/Others',
             list: [
                 'GIT',
-                'Docker',
                 'PostgreSQL',
-                'Bash/Shell scripting',
+                'Bash/Shell',
                 'BEM'
             ],
             color: 'orange'
