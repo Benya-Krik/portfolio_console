@@ -10,7 +10,7 @@
             </nav>
             <div class="header__socials">
                 <a class="header__link" target="_blank" href="https://github.com/Benya-Krik"> <inline-svg :id="'github'" :width="28" :height="28"/> </a>
-                <a class="header__link" target="_blank" href="https://www.linkedin.com/in/ilya-ovechkin-928095237"> <inline-svg :id="'linkedin'" :width="28" :height="28"/> </a>
+                <!-- <a class="header__link" target="_blank" href="https://www.linkedin.com/in/ilya-ovechkin-928095237"> <inline-svg :id="'linkedin'" :width="28" :height="28"/> </a> -->
                 <a class="header__link" target="_blank" href="https://t.me/moartyler"> <inline-svg :id="'telegram'" :width="28" :height="28"/> </a>
             </div>
         </div>
